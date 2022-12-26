@@ -10,5 +10,6 @@ how to start up each of your Chord nodes from the command line
 to start chord_node: input is port number of the existing node or 0 to start a new netwok
 
 how to invoke chord_populate from the command line->command(3 parameters): chord_populate <port number of the existing node> <filename(csv file)>
+  
 
 how to invoke chord_query from the command line(3 parameters)->command: chord_query <port number of existing node> <query to be searched(concat of 1st and 4th colum values)>
