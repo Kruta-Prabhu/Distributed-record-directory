@@ -7,10 +7,6 @@ Approach used for lookup_node : Base port and offset, where base port is STARTIN
 
 how to start up each of your Chord nodes from the command line 
 (what arguments are required for the first node and what arguments are required for subsequent nodes)(2 parameters)-> 
-
-To start chord_node: input is port number of the existing node or 0 to start a new netwok
-
-To invoke chord_populate->chord_populate <port number of the existing node> <filename(csv file)>
-  
-
-To invoke chord_query(3 parameters)->chord_query <port number of existing node> <query to be searched(concat of 1st and 4th colum values)>
+chord_node: input is port number of the existing node or 0 to start a new network
+chord_populate->chord_populate <port number of the existing node> <filename(csv file)>
+chord_query->chord_query <port number of existing node> <query to be searched(concat of 1st and 4th colum values)>
